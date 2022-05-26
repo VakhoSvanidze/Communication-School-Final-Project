@@ -1,0 +1,78 @@
+
+.user-page-container {
+  position: absolute;
+  width: 93%;
+  display: grid;
+  grid-template-columns: 40% 50%;
+  background-color: var(--secondary-color);
+  color: var(--stand-out-color);
+  font-family: 'Koulen', cursive;
+  margin-top: -21px;
+  margin-left: -8px;
+  padding: 2rem;
+  text-align: center;
+}
+
+.title {
+  position: absolute;
+  left: 44vw;
+  color: var(--color-third);
+}
+
+.first-column {
+  margin-top: 5rem;
+}
+
+.second-column {
+  margin-top: 4rem;
+  margin-left: 2rem;
+}
+
+.organizations {
+  border: 1px solid var(--stand-out-color);
+  border-radius: 0.8rem;
+  width: 70%;
+  margin-left: 15%;
+}
+
+.avatar-image {
+  width: 200px;
+  height: auto;
+  border-radius: 1rem; 
+}
+
+.org-container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.repo-link{
+  color: var(--color-third);
+  position: relative;
+  bottom: 1.3rem;
+}
+
+.repo-forks {
+  color: var(--color-third);
+  position: relative;
+  bottom: 2rem;
+}
+
+.org-img {
+  width: 50px;
+  height: auto;
+}
+
+.repository {
+  width: 20rem;
+  height: 4rem;
+  margin-left: 2.5rem;
+  margin-top: 0.5rem;
+  border: 1px solid var(--stand-out-color);
+  border-radius: 1rem;
+}
+
+.go-back {
+  margin-left: 40vw;
+  margin-top: 3rem;
+}

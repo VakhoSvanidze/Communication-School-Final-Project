@@ -1,0 +1,24 @@
+:root {
+  --main-color: #ECECE2;
+  --secondary-color: #DADEDF;
+  --color-third: #5e86a3;
+  --stand-out-color: #423930;
+
+}
+.button {
+  width: 7rem;
+  height: 2.5rem;
+  margin-top: 1.2rem;
+  border-radius: 0.5rem;
+  border-style: none;
+  background-color: var(--color-third);
+  color: var(--stand-out-color);
+  font-family: 'Koulen', cursive; 
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+.button:hover{
+  background-color: var(--stand-out-color);
+  color: #000;
+}

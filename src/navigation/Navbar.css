@@ -1,0 +1,46 @@
+
+
+header {
+  height: 70px;
+  display: flex;
+  margin-left: -10px;
+  margin-top: -10px;
+  margin-right: auto;
+  width: 102%;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--color-third);
+  font-family: 'Koulen', cursive; 
+
+}
+
+header .logo-heading {
+  flex-basis: 25%;
+  margin-left: 2rem;
+  color: var(--stand-out-color);
+}
+
+nav {
+  flex-basis: 25%;
+}
+
+nav ul {
+  margin-bottom: 2rem;
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  margin-right: 2rem;
+}
+
+
+
+header a {
+  text-decoration: none;
+  color: var(--stand-out-color);
+  font-weight: bold;
+  font-size: 0.8rem;
+}
+
+nav ul li a.active-item {
+  border-bottom: 0.2rem solid var(--stand-out-color);
+}

@@ -1,0 +1,28 @@
+
+.label {
+  position: relative;
+  margin-bottom: -1rem;
+  font-size: 1.2rem;
+  font-family: 'Koulen', cursive;
+  margin-bottom: 3rem;
+}
+
+.form {
+  height: 80vh;
+  padding-top: 8rem;
+  margin-top: -10px;
+  margin-right: 0;
+  padding-bottom: 4rem;
+  background-color: grey;
+  display: flex;
+  flex-direction: column;
+  justify-content: initial;
+  align-items: center;
+}
+
+.input {
+  border-radius: 0.4rem;
+  border-style: none;
+  height: 1.8rem;
+  width: 15rem;
+}
